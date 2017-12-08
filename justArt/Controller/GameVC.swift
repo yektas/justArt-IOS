@@ -7,9 +7,10 @@
 //
 
 import UIKit
-import Canvas
 
 class GameVC: UIViewController {
+    
+    var questions: [Question] = []
     
     @IBOutlet weak var point: UILabel!
     @IBOutlet weak var timer: UILabel!
@@ -20,6 +21,10 @@ class GameVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        let q1 = self.questions[0]
+//
+//        choiceButtons[0].setTitle(q1.answer, for: .normal)
+        
         
     }
 

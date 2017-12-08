@@ -5,5 +5,5 @@ use_frameworks!
 target 'justArt' do
     pod 'Alamofire'
     pod 'SwiftyJSON'
-    pod 'Canvas'
+    pod 'AlamofireObjectMapper', '~> 5.0'
 end

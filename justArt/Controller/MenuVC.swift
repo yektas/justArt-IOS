@@ -10,13 +10,15 @@ import UIKit
 
 class MenuVC: UIViewController {
 
+    var questions: [Question] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // We get all the questions (with a specified limit in the constants)
+        // and store it in the UserDefaults
+        DataService.saveQuestionsToLocalData()
+        
     }
-    
     @IBAction func playBtnPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_CATEGORY, sender: nil)
     }

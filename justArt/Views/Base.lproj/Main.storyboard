@@ -171,6 +171,34 @@
             </objects>
             <point key="canvasLocation" x="644" y="50"/>
         </scene>
+        <!--TestVC-->
+        <scene sceneID="POk-Wi-Cxq">
+            <objects>
+                <viewController id="lmo-77-HMX" customClass="TestVC" customModule="justArt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ped-lC-KxW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yfh-Vf-H46">
+                                <rect key="frame" x="16" y="20" width="343" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9di-mS-IJR"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="Yfh-Vf-H46" id="MNy-dg-EfC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7d-6P-hKC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-324" y="-654.42278860569718"/>
+        </scene>
         <!--CategoryVC-->
         <scene sceneID="LrM-Od-oDZ">
             <objects>
@@ -280,6 +308,9 @@
                                         <color key="backgroundColor" red="0.6942870020866394" green="0.4681321382522583" blue="0.90822649002075195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
                                         <state key="normal" title="YARDIM"/>
+                                        <connections>
+                                            <segue destination="lmo-77-HMX" kind="show" id="Hhg-WY-eqG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nw-Ao-gaV" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="172" width="250" height="60"/>
