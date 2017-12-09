@@ -28,8 +28,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="57B-1h-f3P">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soru1" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-sh-9ot" customClass="RoundedImage" customModule="justArt" customModuleProvider="target">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-sh-9ot" customClass="RoundedImage" customModule="justArt" customModuleProvider="target">
                                 <rect key="frame" x="47.5" y="131" width="280" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="Chj-9c-jgU"/>
+                                </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="acM-9y-xhV">
                                 <rect key="frame" x="30" y="35" width="40.5" height="54"/>
@@ -71,10 +74,10 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Süre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6S-QW-erg">
                                         <rect key="frame" x="0.0" y="0.0" width="46" height="29"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
-                                        <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxG-ss-hyE">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxG-ss-hyE">
                                         <rect key="frame" x="0.0" y="33" width="46" height="29"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
                                         <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -83,7 +86,7 @@
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="4ZO-6e-azd"/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-zU-mlE">
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-zU-mlE">
                                 <rect key="frame" x="47.5" y="388" width="280" height="205"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZe-r2-byj" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
@@ -93,44 +96,44 @@
                                             <constraint firstAttribute="height" constant="40" id="vKf-oa-7HQ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                        <state key="normal" title="choice1">
+                                        <state key="normal">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="choice1Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QxC-jn-O7h"/>
+                                            <action selector="choiceBtnPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMk-9E-mJd"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9S-Br-u5a" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9S-Br-u5a" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55" width="280" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                        <state key="normal" title="choice2">
+                                        <state key="normal">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="choice2Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Wt-Pc-UAo"/>
+                                            <action selector="choiceBtnPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p1R-tB-gBJ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2E-C3-2aW" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2E-C3-2aW" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="110" width="280" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                        <state key="normal" title="choice3">
+                                        <state key="normal">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="choice3Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UGB-PH-RcS"/>
+                                            <action selector="choiceBtnPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsT-bm-bdu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fd-aw-Yaf" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fd-aw-Yaf" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="165" width="280" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                        <state key="normal" title="choice4">
+                                        <state key="normal">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="choice4Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9bB-uA-Zng"/>
+                                            <action selector="choiceBtnPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XEP-lc-VFW"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -148,6 +151,8 @@
                             <constraint firstItem="57B-1h-f3P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="U3Z-d6-TGn"/>
                             <constraint firstItem="acM-9y-xhV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="UUw-s4-Fmh"/>
                             <constraint firstItem="Vdq-sh-9ot" firstAttribute="top" secondItem="REf-I9-z3H" secondAttribute="bottom" constant="34" id="WEe-Ud-RT5"/>
+                            <constraint firstItem="0qb-zU-mlE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47.5" id="azV-ms-xrm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0qb-zU-mlE" secondAttribute="trailing" constant="47.5" id="bZV-w2-4Ci"/>
                             <constraint firstItem="0qb-zU-mlE" firstAttribute="width" secondItem="Vdq-sh-9ot" secondAttribute="width" id="c0u-je-yYb"/>
                             <constraint firstItem="57B-1h-f3P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dbS-qz-d07"/>
                             <constraint firstItem="0qb-zU-mlE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ejl-Mq-K7G"/>
@@ -157,10 +162,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="point" destination="EHp-sa-24r" id="VRu-p8-Rv5"/>
+                        <outlet property="pointLbl" destination="EHp-sa-24r" id="VRu-p8-Rv5"/>
                         <outlet property="questionImage" destination="Vdq-sh-9ot" id="TtP-u3-mff"/>
-                        <outlet property="questionNumber" destination="jMH-UX-dQP" id="QsE-Rz-Nj8"/>
-                        <outlet property="timer" destination="ZxG-ss-hyE" id="12y-Qd-R92"/>
+                        <outlet property="questionNumberLbl" destination="jMH-UX-dQP" id="QsE-Rz-Nj8"/>
+                        <outlet property="timerLbl" destination="ZxG-ss-hyE" id="12y-Qd-R92"/>
                         <outletCollection property="choiceButtons" destination="AZe-r2-byj" collectionClass="NSMutableArray" id="CfU-5O-euU"/>
                         <outletCollection property="choiceButtons" destination="F9S-Br-u5a" collectionClass="NSMutableArray" id="98g-h4-Gny"/>
                         <outletCollection property="choiceButtons" destination="d2E-C3-2aW" collectionClass="NSMutableArray" id="g5E-pB-Lqt"/>
@@ -171,35 +176,7 @@
             </objects>
             <point key="canvasLocation" x="644" y="50"/>
         </scene>
-        <!--TestVC-->
-        <scene sceneID="POk-Wi-Cxq">
-            <objects>
-                <viewController id="lmo-77-HMX" customClass="TestVC" customModule="justArt" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ped-lC-KxW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yfh-Vf-H46">
-                                <rect key="frame" x="16" y="20" width="343" height="635"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="9di-mS-IJR"/>
-                    </view>
-                    <connections>
-                        <outlet property="textField" destination="Yfh-Vf-H46" id="MNy-dg-EfC"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B7d-6P-hKC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-324" y="-654.42278860569718"/>
-        </scene>
-        <!--CategoryVC-->
+        <!--Title-->
         <scene sceneID="LrM-Od-oDZ">
             <objects>
                 <viewController id="J7B-gc-vTi" customClass="CategoryVC" customModule="justArt" customModuleProvider="target" sceneMemberID="viewController">
@@ -211,7 +188,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Caq-IG-f5n" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
-                                <rect key="frame" x="77" y="298.5" width="220" height="70"/>
+                                <rect key="frame" x="77.5" y="298.5" width="220" height="70"/>
                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="KQA-MV-aPa"/>
@@ -260,6 +237,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="smK-Cu-oSv"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="cV9-ZI-pgZ"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="toGame" id="YIC-mF-uri"/>
                     </connections>
@@ -295,7 +273,6 @@
                                         <color key="backgroundColor" red="0.11558034271001816" green="0.94798928499221802" blue="0.23240658640861511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="NHM-hx-f5W"/>
-                                            <constraint firstAttribute="width" constant="250" id="bwu-6X-Zng"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
                                         <state key="normal" title="OYNA"/>
@@ -308,9 +285,6 @@
                                         <color key="backgroundColor" red="0.6942870020866394" green="0.4681321382522583" blue="0.90822649002075195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
                                         <state key="normal" title="YARDIM"/>
-                                        <connections>
-                                            <segue destination="lmo-77-HMX" kind="show" id="Hhg-WY-eqG"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nw-Ao-gaV" customClass="RoundedButton" customModule="justArt" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="172" width="250" height="60"/>
@@ -319,6 +293,9 @@
                                         <state key="normal" title="ÇIKIŞ"/>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="xQB-Oq-RGL"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -346,6 +323,5 @@
     <resources>
         <image name="back-button" width="32" height="32"/>
         <image name="background" width="320" height="568"/>
-        <image name="soru1" width="280" height="215"/>
     </resources>
 </document>

@@ -10,7 +10,7 @@ import Foundation
 
 class Conversion {
     
-    class func encodeObject(question: Question) -> Data?{
+    class func encodeObject<T: Encodable>(question: T ) -> Data?{
         do {
             let encodedQuestion = try JSONEncoder().encode(question)
             return encodedQuestion
@@ -29,11 +29,11 @@ class Conversion {
         return nil
     }
     
-    class func decodeObject(encodedObject: Data) -> Question?{
+    class func decodeObject<T: Decodable>(encodedObject: Data) -> T?{
         let data = encodedObject
         do{
-            let decodedObject = try JSONDecoder().decode(Question.self, from: data)
-            return decodedObject as! Question
+            let decodedObject = try JSONDecoder().decode(T.self, from: data)
+            return decodedObject
         } catch {
             debugPrint("Could not decode the data")
         }

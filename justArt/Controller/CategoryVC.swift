@@ -28,6 +28,7 @@ class CategoryVC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let gameVC = segue.destination as? GameVC {
             gameVC.questions = DataService.getQuestions(withCategory: self.category)
+            gameVC.artists = DataService.getArtists()
         }
     }
 }

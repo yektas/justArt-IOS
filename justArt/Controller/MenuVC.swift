@@ -17,6 +17,7 @@ class MenuVC: UIViewController {
         // We get all the questions (with a specified limit in the constants)
         // and store it in the UserDefaults
         DataService.saveQuestionsToLocalData()
+        DataService.saveArtistsToLocalData()
         
     }
     @IBAction func playBtnPressed(_ sender: Any) {

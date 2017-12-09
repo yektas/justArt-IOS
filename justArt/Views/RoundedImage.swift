@@ -20,7 +20,7 @@ class RoundedImage: UIImageView {
     }
     
     func customizeImage(){
-        layer.cornerRadius = 10
+        layer.cornerRadius = 7
         clipsToBounds = true
     }
 }
