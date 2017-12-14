@@ -15,26 +15,20 @@ class DataService {
     
     // Gets the questions from API and saves them to UserDefaults with "questions" key
     class func saveQuestionsToLocalData() {
-        if isObjectExists(withKey: QUESTIONS_KEY){
-            return
-        } else {
-            var encodedQuestions: [Data] = []
-            APIService.instance.getQuestions { (questions) in
-                for question in questions{
-                    do {
-                        encodedQuestions.append(Conversion.encodeObject(question: question) as! Data)
-                    }
+        var encodedQuestions: [Data] = []
+        APIService.instance.getQuestions { (questions) in
+            for question in questions{
+                do {
+                    encodedQuestions.append(Conversion.encodeObject(question: question) as! Data)
                 }
-                userData.set(encodedQuestions, forKey: QUESTIONS_KEY)
             }
+            userData.set(encodedQuestions, forKey: QUESTIONS_KEY)
         }
+        
     }
     
     // Gets the artists from API and saves them to UserDefaults with "artists" key
     class func saveArtistsToLocalData() {
-        if isObjectExists(withKey: ARTISTS_KEY){
-            return
-        } else {
         var encodedArtists: [Data] = []
         APIService.instance.getArtists { (artists) in
             for artist in artists{
@@ -44,7 +38,6 @@ class DataService {
             }
             userData.set(encodedArtists, forKey: ARTISTS_KEY)
             }
-        }
     }
     
     class func getArtists() -> [Artist]{
@@ -74,9 +67,5 @@ class DataService {
             }
         }
         return questions
-    }
-    
-    class func isObjectExists(withKey key: String) -> Bool{
-        return userData.object(forKey: key) != nil
     }
 }

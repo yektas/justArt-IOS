@@ -1,0 +1,209 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Si", ""]
+- ["Su", ""]
+- ["Si", "toUIColor"]
+- ["Si", "toCGColor"]
+- ["Su", "toUIColor"]
+- ["Su", "toCGColor"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "/"
+- !private ">>"
+- "CGColor"
+- !private "CGFloat"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "UIColor"
+- "UInt"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "CGFloat"]
+- !private ["s13BinaryIntegerP", "UIColor"]
+- !private ["s13BinaryIntegerP", "toUIColor"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "toUIColor"]
+- !private ["s10ComparableP", "CGFloat"]
+- !private ["s10ComparableP", "UIColor"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "toUIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "CGFloat"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toUIColor"]
+- !private ["s17CustomReflectableP", "CGFloat"]
+- !private ["s17CustomReflectableP", "UIColor"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "toUIColor"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "toUIColor"]
+- !private ["s9DecodableP", "CGFloat"]
+- !private ["s9DecodableP", "UIColor"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "toUIColor"]
+- !private ["s9EncodableP", "CGFloat"]
+- !private ["s9EncodableP", "UIColor"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "toUIColor"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "cgColor"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "toUIColor"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "CGFloat"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UIColor"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "toUIColor"]
+- !private ["s17FixedWidthIntegerP", "CGFloat"]
+- !private ["s17FixedWidthIntegerP", "UIColor"]
+- !private ["s17FixedWidthIntegerP", "toUIColor"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "cgColor"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "toUIColor"]
+- ["Si", "CGColor"]
+- !private ["Si", "CGFloat"]
+- ["Si", "UIColor"]
+- ["Si", "toCGColor"]
+- ["Si", "toUIColor"]
+- !private ["s25LosslessStringConvertibleP", "CGFloat"]
+- !private ["s25LosslessStringConvertibleP", "UIColor"]
+- !private ["s25LosslessStringConvertibleP", "toUIColor"]
+- !private ["s10MirrorPathP", "CGFloat"]
+- !private ["s10MirrorPathP", "UIColor"]
+- !private ["s10MirrorPathP", "toUIColor"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "cgColor"]
+- !private ["So16NSObjectProtocolP", "cgColor"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s7NumericP", "CGFloat"]
+- !private ["s7NumericP", "UIColor"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "toUIColor"]
+- !private ["s13SignedIntegerP", "CGFloat"]
+- !private ["s13SignedIntegerP", "UIColor"]
+- !private ["s13SignedIntegerP", "toUIColor"]
+- !private ["s13SignedNumericP", "CGFloat"]
+- !private ["s13SignedNumericP", "UIColor"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "toUIColor"]
+- !private ["s10StrideableP", "CGFloat"]
+- !private ["s10StrideableP", "UIColor"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "toUIColor"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So7UIColorC", "init"]
+- ["Su", "CGColor"]
+- !private ["Su", "CGFloat"]
+- ["Su", "UIColor"]
+- ["Su", "toCGColor"]
+- ["Su", "toUIColor"]
+- !private ["s15UnsignedIntegerP", "CGFloat"]
+- !private ["s15UnsignedIntegerP", "UIColor"]
+- !private ["s15UnsignedIntegerP", "toUIColor"]
+- !private ["s18_BitwiseOperationsP", "CGFloat"]
+- !private ["s18_BitwiseOperationsP", "UIColor"]
+- !private ["s18_BitwiseOperationsP", "toUIColor"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "CGFloat"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UIColor"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "toUIColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "CGFloat"]
+- !private ["s21_ObjectiveCBridgeableP", "UIColor"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "toUIColor"]
+- !private ["s11_StrideableP", "CGFloat"]
+- !private ["s11_StrideableP", "UIColor"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "toUIColor"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So7UIColorC"
+- "Su"
+- !private "s15UnsignedIntegerP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Target Support Files/SCLAlertView/SCLAlertView-umbrella.h"
+- "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SCLAlertView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+interface-hash: "f9b5cb67b958e8b182007eaee57a2fa5"

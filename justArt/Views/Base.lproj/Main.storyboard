@@ -60,7 +60,7 @@
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHp-sa-24r">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHp-sa-24r">
                                         <rect key="frame" x="0.0" y="30" width="43.5" height="25"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -170,11 +170,46 @@
                         <outletCollection property="choiceButtons" destination="F9S-Br-u5a" collectionClass="NSMutableArray" id="98g-h4-Gny"/>
                         <outletCollection property="choiceButtons" destination="d2E-C3-2aW" collectionClass="NSMutableArray" id="g5E-pB-Lqt"/>
                         <outletCollection property="choiceButtons" destination="1Fd-aw-Yaf" collectionClass="NSMutableArray" id="Mq6-zH-Isf"/>
+                        <segue destination="3sz-JU-C74" kind="show" identifier="toEndScreen" id="qLb-8T-rse"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="644" y="50"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aqX-vf-dj1">
+            <objects>
+                <viewController id="3sz-JU-C74" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7pO-bY-j2y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ai5-ox-Lcw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OYUN BİTTİ!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnD-Xh-oG4">
+                                <rect key="frame" x="114.5" y="316.5" width="146" height="34.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dnD-Xh-oG4" firstAttribute="centerX" secondItem="7pO-bY-j2y" secondAttribute="centerX" id="5WD-gP-PIS"/>
+                            <constraint firstItem="Ai5-ox-Lcw" firstAttribute="leading" secondItem="vwz-ZQ-jr3" secondAttribute="leading" id="MVI-JK-60X"/>
+                            <constraint firstItem="Ai5-ox-Lcw" firstAttribute="bottom" secondItem="vwz-ZQ-jr3" secondAttribute="bottom" id="NEo-lM-uhl"/>
+                            <constraint firstItem="Ai5-ox-Lcw" firstAttribute="trailing" secondItem="vwz-ZQ-jr3" secondAttribute="trailing" id="TkD-oC-Oim"/>
+                            <constraint firstItem="Ai5-ox-Lcw" firstAttribute="top" secondItem="7pO-bY-j2y" secondAttribute="top" id="pv0-T7-H6Z"/>
+                            <constraint firstItem="dnD-Xh-oG4" firstAttribute="centerY" secondItem="7pO-bY-j2y" secondAttribute="centerY" id="yYp-0o-orn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vwz-ZQ-jr3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMR-Xg-N95" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1431" y="50"/>
         </scene>
         <!--Title-->
         <scene sceneID="LrM-Od-oDZ">
