@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81459968E9ABCE8CB46D2ECA /* Pods_justArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB70007B6017701F9FEB07C /* Pods_justArt.framework */; };
+		40994AF00043DAE93F4DD7DE /* Pods_justArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5E4CE99385A9FA7428BDE /* Pods_justArt.framework */; };
 		8A0559E31FDB3DE40046BC7D /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0559E21FDB3DE40046BC7D /* Conversion.swift */; };
 		8A306B7C1FD72E920063ECCA /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A306B7B1FD72E920063ECCA /* MenuVC.swift */; };
 		8A306B7E1FD72EBF0063ECCA /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A306B7D1FD72EBF0063ECCA /* CategoryVC.swift */; };
@@ -27,8 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0445CC55F6907F46E9F8F13D /* Pods-justArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-justArt/Pods-justArt.release.xcconfig"; sourceTree = "<group>"; };
-		2C8BFC4583843EAE208B5CAC /* Pods-justArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-justArt/Pods-justArt.debug.xcconfig"; sourceTree = "<group>"; };
 		8A0559E21FDB3DE40046BC7D /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
 		8A306B7B1FD72E920063ECCA /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		8A306B7D1FD72EBF0063ECCA /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
@@ -47,7 +45,9 @@
 		8AEADFF51FD34F51001E87E4 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		8AEADFF71FD350D3001E87E4 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		8AEADFF91FD35E6D001E87E4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		EAB70007B6017701F9FEB07C /* Pods_justArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_justArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC5E4CE99385A9FA7428BDE /* Pods_justArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_justArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AC2C4622D7E8FCB35B79C7 /* Pods-justArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-justArt/Pods-justArt.release.xcconfig"; sourceTree = "<group>"; };
+		DC85548E515BC08B5568F2BF /* Pods-justArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-justArt/Pods-justArt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,26 +55,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81459968E9ABCE8CB46D2ECA /* Pods_justArt.framework in Frameworks */,
+				40994AF00043DAE93F4DD7DE /* Pods_justArt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D0562536BC371091C57F7BE /* Frameworks */ = {
+		2662E8CCA67A289076B8D226 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAB70007B6017701F9FEB07C /* Pods_justArt.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		344F05E9C35967D81AD9C952 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2C8BFC4583843EAE208B5CAC /* Pods-justArt.debug.xcconfig */,
-				0445CC55F6907F46E9F8F13D /* Pods-justArt.release.xcconfig */,
+				DC85548E515BC08B5568F2BF /* Pods-justArt.debug.xcconfig */,
+				C3AC2C4622D7E8FCB35B79C7 /* Pods-justArt.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -84,8 +76,8 @@
 			children = (
 				8A7B3B891FD2C45B005AD523 /* justArt */,
 				8A7B3B881FD2C45B005AD523 /* Products */,
-				344F05E9C35967D81AD9C952 /* Pods */,
-				1D0562536BC371091C57F7BE /* Frameworks */,
+				2662E8CCA67A289076B8D226 /* Pods */,
+				E4D6AD6B20AB152DC5459112 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +153,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		E4D6AD6B20AB152DC5459112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC5E4CE99385A9FA7428BDE /* Pods_justArt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,12 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7B3B991FD2C45B005AD523 /* Build configuration list for PBXNativeTarget "justArt" */;
 			buildPhases = (
-				C03FA1739B34FEDE9FFC1C4B /* [CP] Check Pods Manifest.lock */,
+				9E3455A80CA7A7AC5215DC2A /* [CP] Check Pods Manifest.lock */,
 				8A7B3B831FD2C45B005AD523 /* Sources */,
 				8A7B3B841FD2C45B005AD523 /* Frameworks */,
 				8A7B3B851FD2C45B005AD523 /* Resources */,
-				2467B50C866A13D0F90B3DBD /* [CP] Embed Pods Frameworks */,
-				BF8881A6BD0CC6B91087A460 /* [CP] Copy Pods Resources */,
+				E90D6844DAC90E6C9555B6D3 /* [CP] Embed Pods Frameworks */,
+				28B1A07BB30334859092CA9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,31 +232,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2467B50C866A13D0F90B3DBD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-justArt/Pods-justArt-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-justArt/Pods-justArt-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF8881A6BD0CC6B91087A460 /* [CP] Copy Pods Resources */ = {
+		28B1A07BB30334859092CA9F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,7 +247,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-justArt/Pods-justArt-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C03FA1739B34FEDE9FFC1C4B /* [CP] Check Pods Manifest.lock */ = {
+		9E3455A80CA7A7AC5215DC2A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,6 +263,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90D6844DAC90E6C9555B6D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-justArt/Pods-justArt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-justArt/Pods-justArt-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -443,7 +445,7 @@
 		};
 		8A7B3B9A1FD2C45B005AD523 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C8BFC4583843EAE208B5CAC /* Pods-justArt.debug.xcconfig */;
+			baseConfigurationReference = DC85548E515BC08B5568F2BF /* Pods-justArt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +461,7 @@
 		};
 		8A7B3B9B1FD2C45B005AD523 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0445CC55F6907F46E9F8F13D /* Pods-justArt.release.xcconfig */;
+			baseConfigurationReference = C3AC2C4622D7E8FCB35B79C7 /* Pods-justArt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

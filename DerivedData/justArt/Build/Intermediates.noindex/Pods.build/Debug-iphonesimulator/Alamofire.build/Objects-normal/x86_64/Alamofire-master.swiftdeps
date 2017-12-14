@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "6045bff3565a03a33beacb8288dbf066"
+build_time: [1512865474, 255912000]
+inputs:
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/AFError.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/Alamofire.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/MultipartFormData.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/Notifications.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/ParameterEncoding.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/Request.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/Response.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/ResponseSerialization.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/Result.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/SessionDelegate.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/SessionManager.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/TaskDelegate.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/Timeline.swift": [1512865107, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Alamofire/Source/Validation.swift": [1512865107, 0]

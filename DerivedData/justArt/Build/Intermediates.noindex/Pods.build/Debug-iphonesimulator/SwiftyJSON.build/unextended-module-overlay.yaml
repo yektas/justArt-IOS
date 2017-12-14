@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/unextended-module.modulemap',
+    }]
+  }]
+}

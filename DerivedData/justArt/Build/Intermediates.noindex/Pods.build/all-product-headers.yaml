@@ -1,0 +1,168 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-Swift.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-umbrella.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/Pods_justArt.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-justArt-umbrella.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Target Support Files/Pods-justArt/Pods-justArt-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_justArt-Swift.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/Pods_justArt.framework/Headers/Pods_justArt-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/Pods_justArt.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-justArt.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SCLAlertView-Swift.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SCLAlertView-umbrella.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Target Support Files/SCLAlertView/SCLAlertView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SCLAlertView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sercanyektas/Desktop/Xcode Projects/justArt/DerivedData/justArt/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

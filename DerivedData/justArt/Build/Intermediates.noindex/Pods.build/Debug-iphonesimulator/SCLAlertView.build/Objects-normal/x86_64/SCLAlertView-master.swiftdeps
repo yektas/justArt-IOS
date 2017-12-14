@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "522bf3e8e2864a24199ab042f834f47c"
+build_time: [1512865487, 271595000]
+inputs:
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/SCLAlertView/SCLAlertView/SCLAlertView.swift": !dirty [1512865159, 0]
+  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/SCLAlertView/SCLAlertView/SCLExtensions.swift": [1512865159, 0]
