@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "6711e24cae65562d3f1e9e23f83f409a"
-build_time: [1512865486, 70921000]
-inputs:
-  "/Users/sercanyektas/Desktop/Xcode Projects/justArt/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1512865161, 0]

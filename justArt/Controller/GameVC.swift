@@ -16,7 +16,6 @@ class GameVC: UIViewController {
     var questions: [Question] = []
     var popedQuestions: [Question] = []
     var artists: [Artist] = []
-    var point = 0
     
     @IBOutlet weak var pointLbl: UILabel!
     @IBOutlet weak var timerLbl: UILabel!
