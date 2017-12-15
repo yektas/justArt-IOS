@@ -137,6 +137,10 @@ class GameVC: UIViewController {
             }
         }
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let endScreen = segue.destination as? EndScreenVC {
+            endScreen.finalPoint = pointLbl.text!
+        }
+    }
     
 }

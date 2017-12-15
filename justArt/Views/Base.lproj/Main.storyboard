@@ -177,10 +177,10 @@
             </objects>
             <point key="canvasLocation" x="644" y="50"/>
         </scene>
-        <!--View Controller-->
+        <!--End ScreenVC-->
         <scene sceneID="aqX-vf-dj1">
             <objects>
-                <viewController id="3sz-JU-C74" sceneMemberID="viewController">
+                <viewController id="3sz-JU-C74" customClass="EndScreenVC" customModule="justArt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7pO-bY-j2y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,8 +188,23 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ai5-ox-Lcw">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PUANIN:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wu2-bz-dQ4">
+                                <rect key="frame" x="135.5" y="239" width="103" height="35"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OYUN BİTTİ!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnD-Xh-oG4">
-                                <rect key="frame" x="114.5" y="316.5" width="146" height="34.5"/>
+                                <rect key="frame" x="114" y="142" width="146" height="34.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3z-IV-MZZ">
+                                <rect key="frame" x="87.5" y="293" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="a6l-tk-RwT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -198,18 +213,26 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dnD-Xh-oG4" firstAttribute="centerX" secondItem="7pO-bY-j2y" secondAttribute="centerX" id="5WD-gP-PIS"/>
+                            <constraint firstItem="U3z-IV-MZZ" firstAttribute="top" secondItem="wu2-bz-dQ4" secondAttribute="bottom" constant="19" id="AR4-fM-Cgj"/>
                             <constraint firstItem="Ai5-ox-Lcw" firstAttribute="leading" secondItem="vwz-ZQ-jr3" secondAttribute="leading" id="MVI-JK-60X"/>
                             <constraint firstItem="Ai5-ox-Lcw" firstAttribute="bottom" secondItem="vwz-ZQ-jr3" secondAttribute="bottom" id="NEo-lM-uhl"/>
                             <constraint firstItem="Ai5-ox-Lcw" firstAttribute="trailing" secondItem="vwz-ZQ-jr3" secondAttribute="trailing" id="TkD-oC-Oim"/>
+                            <constraint firstItem="wu2-bz-dQ4" firstAttribute="centerX" secondItem="7pO-bY-j2y" secondAttribute="centerX" id="URE-8D-asa"/>
+                            <constraint firstItem="U3z-IV-MZZ" firstAttribute="centerX" secondItem="7pO-bY-j2y" secondAttribute="centerX" id="djn-Tw-tQO"/>
+                            <constraint firstItem="vwz-ZQ-jr3" firstAttribute="bottom" secondItem="U3z-IV-MZZ" secondAttribute="bottom" constant="339" id="mxV-wb-JBq"/>
                             <constraint firstItem="Ai5-ox-Lcw" firstAttribute="top" secondItem="7pO-bY-j2y" secondAttribute="top" id="pv0-T7-H6Z"/>
-                            <constraint firstItem="dnD-Xh-oG4" firstAttribute="centerY" secondItem="7pO-bY-j2y" secondAttribute="centerY" id="yYp-0o-orn"/>
+                            <constraint firstItem="dnD-Xh-oG4" firstAttribute="top" secondItem="vwz-ZQ-jr3" secondAttribute="top" constant="122" id="rqw-ou-w1C"/>
+                            <constraint firstItem="wu2-bz-dQ4" firstAttribute="top" secondItem="dnD-Xh-oG4" secondAttribute="bottom" constant="62.5" id="uMq-sd-9nA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vwz-ZQ-jr3"/>
                     </view>
+                    <connections>
+                        <outlet property="pointLbl" destination="U3z-IV-MZZ" id="FHA-CU-V8j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mMR-Xg-N95" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1431" y="50"/>
+            <point key="canvasLocation" x="1429.5999999999999" y="49.925037481259373"/>
         </scene>
         <!--Title-->
         <scene sceneID="LrM-Od-oDZ">
